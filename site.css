@@ -60,6 +60,7 @@ textarea {
     background: url('images/logo.png');
     width: 171px;
     height: 55px;
+    margin-left: 125px
 }
 
 .navbar-inverse {
