@@ -92,6 +92,11 @@ textarea {
     text-overflow: ellipsis;
 }
 
+.produto-estoque {
+    font-size: 0.9em;
+    color: grey
+}
+
 .produto-footer {
     max-height: 140px;
 }
