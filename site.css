@@ -8,7 +8,7 @@ body {
     color: white;
     font-family: 'Russo One', sans-serif;
     font-weight: 400;
-    background-color: #9102f7;
+    background-color: #010336;
     border-radius: 5px;
     padding: 1em;
     display: block;
@@ -64,7 +64,8 @@ textarea {
 }
 
 .navbar-inverse {
-    background-color: #9102f7;
+    /* background-color: #9102f7; */
+    background-color: #010336;
     border-color: none;
 }
 
