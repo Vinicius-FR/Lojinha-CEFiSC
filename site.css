@@ -101,3 +101,113 @@ textarea {
 .produto-footer {
     max-height: 140px;
 }
+
+/* nova parte do carrossel */
+
+.slide {
+    position: relative;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.item {
+    overflow-x: auto;
+}
+
+.arrow-left,
+.arrow-right {
+    position: absolute;
+    top: 0;
+    left: -37px;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    color: rgb(255, 255, 255);
+    transition: all 600ms ease-in-out;
+    background: linear-gradient(to left, transparent 0%, rgb(0, 0, 0) 200%);
+    opacity: 1.0;
+    cursor: pointer;
+    border: none;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+  opacity: 1;
+}
+
+.arrow-right {
+  position: absolute;
+  right: -30px;
+  left: auto;
+  text-align: right;
+  background: linear-gradient(to right, transparent 0%, black 200%);
+}
+
+.subitem {
+  flex-shrink: 0;
+  transition: all 600ms ease-in-out;
+  opacity: 0.5;
+}
+
+.current-subitem {
+    opacity: 1;
+}
+
+.item::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+.item {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+/* carrossel 2 */
+
+.arrow-left2,
+.arrow-right2 {
+    position: absolute;
+    top: 0;
+    left: -37px;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    color: rgb(255, 255, 255);
+    transition: all 600ms ease-in-out;
+    background: linear-gradient(to left, transparent 0%, rgb(0, 0, 0) 200%);
+    opacity: 1.0;
+    cursor: pointer;
+    border: none;
+}
+
+.arrow-left2:hover,
+.arrow-right2:hover {
+  opacity: 1;
+}
+
+.arrow-right2 {
+  position: absolute;
+  right: -30px;
+  left: auto;
+  text-align: right;
+  background: linear-gradient(to right, transparent 0%, black 200%);
+}
+
+.subitem2 {
+  flex-shrink: 0;
+  transition: all 600ms ease-in-out;
+  opacity: 0.5;
+}
+
+.current-subitem2 {
+    opacity: 1;
+}

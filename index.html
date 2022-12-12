@@ -28,10 +28,35 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Russo+One&display=swap" rel="stylesheet">
 
+<!--
+<h1>A nice carousel for any purpose</h1>
+<div class="container">
+  <button class="arrow-left control" aria-label="Previous image">◀</button>
+  <button class="arrow-right control" aria-label="Next Image">▶</button>
+  <div class="gallery-wrapper">
+    <div class="gallery">
+             <div class="item current-item cyan"></div>
+      <div class="item deeppink"></div>
+      <div class="item turquoise"></div>
+      <div class="item darkblue"></div>
+      <div class="item purple"></div>
+      <img src="https://source.unsplash.com/random/250x250/?beach" alt="Beach Image" class="item current-item">
+      <img src="https://source.unsplash.com/random/250x250/?animal" alt="Animal Image" class="item current-item">
+      <img src="https://source.unsplash.com/random/250x250/?street" alt="Street Image" class="item current-item">
+      <img src="https://source.unsplash.com/random/250x250/?zoo" alt="Zoo Image" class="item current-item">
+      <img src="https://source.unsplash.com/random/250x250/?model" alt="Model Image" class="item current-item">
+    </div>
+  </div>
+</div> -->
+
+
 <h3 class="header">Produtos Oficiais CEFiSC</h3>
 
 
 <div id="my-carousel" class="carousel slide" data-ride="carousel">
+
+    <button class="arrow-left control" aria-label="Previous image">◀</button>
+    <button class="arrow-right control" aria-label="Next Image">▶</button>
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
 
@@ -40,7 +65,7 @@
                 <div class="row">
 
 
-                        <div class="col-md-3 col-sm-3 col-lg-3">
+                        <div class="col-md-3 col-sm-3 col-lg-3 subitem current-subitem">
                             <div class="panel panel-default">
                                 <div class="panel-body">
                                     <img class="img-produto-carrossel" src="images/produtos/large_001.jpg" />
@@ -57,7 +82,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-3 col-sm-3 col-lg-3">
+                        <div class="col-md-3 col-sm-3 col-lg-3 subitem current-subitem">
                             <div class="panel panel-default">
                                 <div class="panel-body">
                                     <img class="img-produto-carrossel" src="images/produtos/large_002.jpg" />
@@ -74,7 +99,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-3 col-sm-3 col-lg-3">
+                        <div class="col-md-3 col-sm-3 col-lg-3 subitem current-subitem">
                             <div class="panel panel-default">
                                 <div class="panel-body">
                                     <img class="img-produto-carrossel" src="images/produtos/large_003.jpg" />
@@ -91,7 +116,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-3 col-sm-3 col-lg-3">
+                        <div class="col-md-3 col-sm-3 col-lg-3 subitem current-subitem">
                             <div class="panel panel-default">
                                 <div class="panel-body">
                                     <img class="img-produto-carrossel" src="images/produtos/large_004.jpg" />
@@ -108,7 +133,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-3 col-sm-3 col-lg-3">
+                        <div class="col-md-3 col-sm-3 col-lg-3 subitem current-subitem">
                             <div class="panel panel-default">
                                 <div class="panel-body">
                                     <img class="img-produto-carrossel" src="images/produtos/large_005.jpg" />
@@ -125,7 +150,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-3 col-sm-3 col-lg-3">
+                        <div class="col-md-3 col-sm-3 col-lg-3 subitem current-subitem">
                             <div class="panel panel-default">
                                 <div class="panel-body">
                                     <img class="img-produto-carrossel" src="images/produtos/large_006.jpg" />
@@ -153,13 +178,17 @@
     </a>
     <a class="right carousel-control" href="#my-carousel" role="button" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a> -->
+        <span class="sr-only">Next</span> -->
+    </a>
 </div>
 
 <h3 class="header">Produtos dos IFSCers</h3>
 
+
 <div id="my-carousel" class="carousel slide" data-ride="carousel">
+
+    <button class="arrow-left2 control2" aria-label="Previous image">◀</button>
+    <button class="arrow-right2 control2" aria-label="Next Image">▶</button>
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
 
@@ -168,7 +197,7 @@
                 <div class="row">
 
 
-                        <div class="col-md-3 col-sm-3 col-lg-3">
+                        <div class="col-md-3 col-sm-3 col-lg-3 subitem2 current-subitem2">
                             <div class="panel panel-default">
                                 <div class="panel-body">
                                     <img class="img-produto-carrossel" src="images/produtos/large__001.jpg" />
@@ -184,14 +213,15 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-3 col-lg-3">
+
+                        <div class="col-md-3 col-sm-3 col-lg-3 subitem2 current-subitem2">
                             <div class="panel panel-default">
                                 <div class="panel-body">
                                     <img class="img-produto-carrossel" src="images/produtos/large__002.jpg" />
                                 </div>
                                 <div class="panel-footer produto-footer">
                                     <div class="produto-nome">LEGO Batman</div>
-                                    <div class="produto-estoque">Estoque: 1</div>
+                                    <div class="produto-estoque">Estoque: 4</div>
                                     <div><h4><strong>R$ 35,00</strong></h4></div>
                                     <div class="text-center">
                                         <a href="https://forms.gle/9k5r5gwyoyf5cWY27"
@@ -205,29 +235,33 @@
             </div>
     </div>
 
-    <!-- Controls -->
+    <!-- Controls 
     <a class="left carousel-control" href="#my-carousel" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
     </a>
     <a class="right carousel-control" href="#my-carousel" role="button" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
+        <span class="sr-only">Next</span> -->
     </a>
 </div>
+
+    </div>
 
         <hr />
         <footer>
             <p>&copy; 2022 - Lojinha CEFiSC</p>
         </footer>
-    </div>
+</div>
 
-    
-        <script src="jquery.js"></script>
-        <script src="jquery.validate.js"></script>
-        <script src="jquery.validate.unobtrusive.js"></script>
-        <script src="bootstrap.js"></script>
-        <script src="site.js?v=8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U"></script>
+    <!-- 
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/jquery.validate.unobtrusive.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="site.js?v=8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U"></script> -->
+
+    <script src="js/script.js"></script>
     
     
 
