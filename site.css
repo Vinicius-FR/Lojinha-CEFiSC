@@ -16,6 +16,19 @@ body {
     margin-bottom: 1em;
 }
 
+.subheader {
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 400;
+    background-color: #9700bd;
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
