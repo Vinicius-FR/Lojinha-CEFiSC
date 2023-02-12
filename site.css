@@ -111,6 +111,10 @@ textarea {
     color: grey
 }
 
+.alert {
+    color: red
+}
+
 .produto-footer {
     max-height: 140px;
 }
